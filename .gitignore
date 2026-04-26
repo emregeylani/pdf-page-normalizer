@@ -19,12 +19,7 @@ env/
 *.env
 config.local.py
 .env.local
-
-# Database — never commit, each env builds its own
-*.db
-*.sqlite
-*.sqlite3
-db/flowtracker.db
+*.pdf
 
 # Logs
 *.log
@@ -45,10 +40,6 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
-
-#flow tracker debug data
-.last_run
-last_run.txt
 
 # Jupyter
 .ipynb_checkpoints/
